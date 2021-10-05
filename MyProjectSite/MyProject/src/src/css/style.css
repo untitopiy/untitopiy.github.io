@@ -1,0 +1,336 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color:#2a3d50;
+}
+.logo{
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    margin-left: 60px;
+    display: flex;
+    position: absolute;
+    
+}
+.menu{
+    float:left;
+    padding-left: 432px;
+}
+.menu li{
+float: left ;
+line-height : 60px;
+color: #fff;
+margin-right: 40px;
+font-size: 16px;
+text-transform:uppercase;
+    }
+.main{
+    height: calc(100% - 60px ); 
+    background-image:url(../img/парень.png), url(../img/bg.jpg) ;
+    background-size: auto 90%, cover;
+    background-position: 43.45vh, top ;
+    background-position-x: 95%;
+    background-position-y: bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: scroll, fixed;
+}
+  .title__container{
+    display: flex;
+    position: absolute;
+    color:#21354a;
+    text-align:center ;
+}   
+.title__container h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin:330px 0px 0px 304px;
+   
+} 
+
+.title__container h4{
+margin: 450px 0px 0px 350px;
+position: absolute;
+ font-size: 22px;
+ color:#76828e;
+}
+
+.title__container input{
+    height:40px;
+    text-align:center;
+    border: 2px solid #697784;
+    background: none;
+    border-radius:  5px;
+    color:#6a7784;
+    font-size: 13px;
+    padding: 0px  16px;
+    margin: 485px 14px 0px 14px ;
+    position:relative;
+    right: 285px;
+    
+}
+#id1{
+    position: absolute;
+    margin: 160px 0px 0px 930px;
+    
+}
+#id2{
+    position: absolute;
+    margin: 200px 0px 0px 850px;
+}
+.about__me h2{
+position: absolute; 
+margin-top:  108px ;
+font-size: 30px;
+font-weight: bold;
+color:#1a2f43;
+left: 900px;
+} 
+.text_about_me{
+    position: absolute;
+    margin:475px 0px 0px 600px ;
+    text-align:justify;
+}
+.about__me p{
+    margin-bottom: 40px;
+}
+.about__me input{
+    height:40px;
+    width: 160px;
+    text-align:center;
+    border: 2px solid #697784;
+    background: none;
+    border-radius:  5px;
+    color:#6a7784;
+    font-size: 13px;
+    padding: 0px  16px;
+    margin: 0px 0px 0px 300px ;
+    position:relative;
+     
+}
+.about__me img{
+    
+    position: absolute; 
+    margin: 13px 0px 0px 310px; 
+}
+.picture1{
+margin-top: 730px;
+    background-image: url(../img/bg2.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.picture1 h2{
+    position: absolute;
+    font-size: 22px;
+    margin: 100px 0px 30px 875px;
+    font-weight: bold;
+    color:#6a7784;
+}
+#id3{
+    position: absolute  ;
+    margin: 150px 0px 0px 915px;
+}
+
+.MyAbility ul{
+    display: flex;
+flex-wrap: nowrap   ;
+}
+.MyAbility li{
+display: flex;
+
+ text-align: center;
+    
+font-size: 16px;
+margin: 170px 0px 0px 230px;
+}
+
+.MyAbility li img{
+    position: absolute;
+    margin: 75px 0px 0px 45px;
+}
+#id4{
+    margin: 130px 0px 0px 30px;
+}
+#id5{
+    margin: 130px 0px 0px 30px;
+}
+#id6{
+    margin: 130px 0px 0px 0px;
+}
+#id7{
+    margin: 130px 0px 0px 25px;
+}
+#id8{
+    margin: 180px 0px 0px -125px;
+}
+#id9{
+    margin: 180px 0px 0px -175px;
+}
+#id10{
+    margin: 180px 0px 0px -145px;
+}
+#id11{
+    margin: 180px 0px 100px -145px;
+}
+.MyAbility p{
+    font-weight: bold;
+    color: #ff8403; 
+}
+.Keys h2{
+text-align: center;
+margin: 105px 0px 30px 0px;
+font-size: 30px;
+font-weight: bold;
+color:#1a2f43;
+}
+#id12{
+   
+    margin: 0px 0px 30px 890px;  
+}
+#id13{
+    position: absolute;
+    text-align: center;
+    margin: 30px 0px 30px -400px;  
+}
+#id14{
+    font-weight: bold;
+    text-transform:uppercase;
+    font-size: 16PX;
+}
+.link{
+    margin: -200px 0px 0px 430px;
+}
+#id15{
+    margin-top: 30px;
+}
+.link1{
+    margin: -120px 0px 0px 230px;
+    text-align: justify;
+}
+.link input{
+    height:40px;
+    text-align:center;
+    border: 2px solid #697784;
+    background: #00b6af;
+    border-radius:  5px;
+    color:#fff;
+    font-size: 13px;
+    padding: 0px  16px;
+   margin-top: 15px;
+   margin-left: -15px;
+    position:relative;
+}
+.payment{
+margin: 195px 0px 0px 500px;
+
+}
+.payment h2{
+    font-size: 35px;
+    font-weight: bold;
+    color:#1a2f43;
+    margin: 0px 0px 20px 350px;
+}
+.payment h3{
+    font-size: 22px;
+    font-weight: bold;
+    color:#1a2f43;   
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.payment select{
+    height:40px;
+    text-align:justify;
+    border: 2px solid #697784;
+    background: #eee;
+    color:#747474;
+    font-size: 22px;
+    width: 920px;
+    margin-bottom: 20px;
+}
+.payment p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#1a2f43;
+}
+#number1{
+    margin-left:845px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#1a2f43;
+}
+#number2{
+    margin-left:798px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#1a2f43;
+    margin-bottom: 155px;
+}
+.picture3{
+    background-image: url(../img/статистика.jpg);
+}
+.picture3 h2{
+    font-size: 25px;
+    font-weight: bold;
+    color:#283b4e;  
+    text-transform: uppercase;
+    display: flex;
+    align-items: end;
+    position: relative;
+    top: 105px;
+    margin:0px 0px 0px 805px;
+   
+}
+.static ul{
+    display: flex;
+    flex-wrap: nowrap   ;
+    margin: 90px 0px 0px 550px;
+}
+#static1{
+    margin: 130PX 0px 50px 910px;
+}
+#static2{
+    position: absolute;
+    margin: -60PX 0px 0px 0px;
+}
+#static3{
+    position: absolute;
+    margin: -60PX 0px 0px 405px;
+}
+#static4{
+    position: absolute;
+    margin: -60PX 0px 0px 805px;
+}
+#static5{
+    position: absolute;
+    margin: -60PX 0px 0px 1195px;
+}
+.static input{
+    font-size: 30px;
+    font-weight: bold;
+    color:#1a2f43;
+    background: none;  
+}   
+.static{
+   margin-left: -120px; 
+}
+#static6{
+    margin-left: -115px;
+}
+#static7{
+    margin-left: -40px;
+}
+#static8{
+    margin-left: -70px;
+}
+#static9{
+    margin-left: -70px;
+}
+.static p{
+    margin: 10px 0px 105px 0px;
+    color:#1a2f43;
+    font-size: 20px;
+    text-transform: uppercase;
+}
